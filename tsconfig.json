@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es6",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "paths": {
+      "*": ["./src/*"]
+    },
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*.ts", "index.d.ts"],
+  "exclude": ["node_modules"]
+}
